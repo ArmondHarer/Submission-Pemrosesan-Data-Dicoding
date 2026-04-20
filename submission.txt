@@ -1,0 +1,15 @@
+# Setup venv 
+python -m venv venv
+# [Untuk Windows:]
+venv\Scripts\activate
+# [Untuk Linux atau MacOS:]
+source venv/bin/activate
+
+# Install requirements di venv
+pip install -r requirements.txt
+
+# Menjalankan skrip ETL pipeline
+python3 main.py
+
+# Menjalankan unit test pada folder tests
+python3 -m pytest tests

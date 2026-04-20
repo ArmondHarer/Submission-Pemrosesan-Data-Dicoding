@@ -1,0 +1,336 @@
+PS C:\Projects\submission_pemda> & c:\Projects\submission_pemda\venv\Scripts\Activate.ps1
+(venv) PS C:\Projects\submission_pemda> python main.py
+2026-04-15 23:13:34,950 - INFO - main - Memulai Pipeline ETL...
+2026-04-15 23:13:34,950 - INFO - main - --- Tahap 1: Mengekstrak Data ---
+2026-04-15 23:13:34,950 - INFO - extract - === Memulai batch halaman 1-10 ===
+2026-04-15 23:13:34,951 - INFO - extract - Scraping halaman 1: https://fashion-studio.dicoding.dev
+2026-04-15 23:13:34,951 - INFO - extract - Scraping halaman 2: https://fashion-studio.dicoding.dev/page2
+2026-04-15 23:13:34,952 - INFO - extract - Scraping halaman 3: https://fashion-studio.dicoding.dev/page3
+2026-04-15 23:13:34,952 - INFO - extract - Scraping halaman 4: https://fashion-studio.dicoding.dev/page4
+2026-04-15 23:13:34,953 - INFO - extract - Scraping halaman 5: https://fashion-studio.dicoding.dev/page5
+2026-04-15 23:13:34,953 - INFO - extract - Scraping halaman 6: https://fashion-studio.dicoding.dev/page6
+2026-04-15 23:13:34,959 - INFO - extract - Scraping halaman 7: https://fashion-studio.dicoding.dev/page7
+2026-04-15 23:13:34,963 - INFO - extract - Scraping halaman 8: https://fashion-studio.dicoding.dev/page8
+2026-04-15 23:13:34,965 - INFO - extract - Scraping halaman 9: https://fashion-studio.dicoding.dev/page9
+2026-04-15 23:13:34,966 - INFO - extract - Scraping halaman 10: https://fashion-studio.dicoding.dev/page10
+2026-04-15 23:13:37,755 - INFO - extract - Halaman 10 selesai: 20 produk
+2026-04-15 23:13:37,789 - INFO - extract - Halaman 7 selesai: 20 produk
+2026-04-15 23:13:37,794 - INFO - extract - Halaman 3 selesai: 20 produk
+2026-04-15 23:13:37,807 - INFO - extract - Halaman 2 selesai: 20 produk
+2026-04-15 23:13:37,827 - INFO - extract - Halaman 1 selesai: 20 produk
+2026-04-15 23:13:37,852 - INFO - extract - Halaman 6 selesai: 20 produk
+2026-04-15 23:13:37,886 - INFO - extract - Halaman 4 selesai: 20 produk
+2026-04-15 23:13:37,913 - INFO - extract - Halaman 9 selesai: 20 produk
+2026-04-15 23:13:37,922 - INFO - extract - Halaman 8 selesai: 20 produk
+2026-04-15 23:13:37,924 - INFO - extract - Halaman 5 selesai: 20 produk
+2026-04-15 23:13:37,935 - INFO - extract - === Batch halaman 1-10 selesai. Total produk terkumpul: 200 ===
+
+2026-04-15 23:13:38,436 - INFO - extract - === Memulai batch halaman 11-20 ===
+2026-04-15 23:13:38,437 - INFO - extract - Scraping halaman 11: https://fashion-studio.dicoding.dev/page11
+2026-04-15 23:13:38,438 - INFO - extract - Scraping halaman 12: https://fashion-studio.dicoding.dev/page12
+2026-04-15 23:13:38,440 - INFO - extract - Scraping halaman 13: https://fashion-studio.dicoding.dev/page13
+2026-04-15 23:13:38,441 - INFO - extract - Scraping halaman 14: https://fashion-studio.dicoding.dev/page14
+2026-04-15 23:13:38,443 - INFO - extract - Scraping halaman 15: https://fashion-studio.dicoding.dev/page15
+2026-04-15 23:13:38,444 - INFO - extract - Scraping halaman 16: https://fashion-studio.dicoding.dev/page16
+2026-04-15 23:13:38,446 - INFO - extract - Scraping halaman 17: https://fashion-studio.dicoding.dev/page17
+2026-04-15 23:13:38,449 - INFO - extract - Scraping halaman 18: https://fashion-studio.dicoding.dev/page18
+2026-04-15 23:13:38,450 - INFO - extract - Scraping halaman 19: https://fashion-studio.dicoding.dev/page19
+2026-04-15 23:13:38,452 - INFO - extract - Scraping halaman 20: https://fashion-studio.dicoding.dev/page20
+2026-04-15 23:13:39,880 - INFO - extract - Halaman 13 selesai: 20 produk
+2026-04-15 23:13:39,895 - INFO - extract - Halaman 14 selesai: 20 produk
+2026-04-15 23:13:39,927 - INFO - extract - Halaman 17 selesai: 20 produk
+2026-04-15 23:13:39,929 - INFO - extract - Halaman 18 selesai: 20 produk
+2026-04-15 23:13:40,123 - INFO - extract - Halaman 16 selesai: 20 produk
+2026-04-15 23:13:40,140 - INFO - extract - Halaman 20 selesai: 20 produk
+2026-04-15 23:13:40,158 - INFO - extract - Halaman 12 selesai: 20 produk
+2026-04-15 23:13:40,175 - INFO - extract - Halaman 15 selesai: 20 produk
+2026-04-15 23:13:40,201 - INFO - extract - Halaman 11 selesai: 20 produk
+2026-04-15 23:13:40,216 - INFO - extract - Halaman 19 selesai: 20 produk
+2026-04-15 23:13:40,222 - INFO - extract - === Batch halaman 11-20 selesai. Total produk terkumpul: 400 ===
+
+2026-04-15 23:13:40,723 - INFO - extract - === Memulai batch halaman 21-30 ===
+2026-04-15 23:13:40,725 - INFO - extract - Scraping halaman 21: https://fashion-studio.dicoding.dev/page21
+2026-04-15 23:13:40,726 - INFO - extract - Scraping halaman 22: https://fashion-studio.dicoding.dev/page22
+2026-04-15 23:13:40,728 - INFO - extract - Scraping halaman 23: https://fashion-studio.dicoding.dev/page23
+2026-04-15 23:13:40,729 - INFO - extract - Scraping halaman 24: https://fashion-studio.dicoding.dev/page24
+2026-04-15 23:13:40,731 - INFO - extract - Scraping halaman 25: https://fashion-studio.dicoding.dev/page25
+2026-04-15 23:13:40,734 - INFO - extract - Scraping halaman 26: https://fashion-studio.dicoding.dev/page26
+2026-04-15 23:13:40,738 - INFO - extract - Scraping halaman 27: https://fashion-studio.dicoding.dev/page27
+2026-04-15 23:13:40,743 - INFO - extract - Scraping halaman 28: https://fashion-studio.dicoding.dev/page28
+2026-04-15 23:13:40,747 - INFO - extract - Scraping halaman 30: https://fashion-studio.dicoding.dev/page30
+2026-04-15 23:13:40,745 - INFO - extract - Scraping halaman 29: https://fashion-studio.dicoding.dev/page29
+2026-04-15 23:13:42,577 - INFO - extract - Halaman 24 selesai: 20 produk
+2026-04-15 23:13:42,589 - INFO - extract - Halaman 23 selesai: 20 produk
+2026-04-15 23:13:42,606 - INFO - extract - Halaman 27 selesai: 20 produk
+2026-04-15 23:13:42,627 - INFO - extract - Halaman 28 selesai: 20 produk
+2026-04-15 23:13:42,830 - INFO - extract - Halaman 26 selesai: 20 produk
+2026-04-15 23:13:42,849 - INFO - extract - Halaman 22 selesai: 20 produk
+2026-04-15 23:13:42,867 - INFO - extract - Halaman 29 selesai: 20 produk
+2026-04-15 23:13:42,924 - INFO - extract - Halaman 21 selesai: 20 produk
+2026-04-15 23:13:42,926 - INFO - extract - Halaman 30 selesai: 20 produk
+2026-04-15 23:13:42,946 - INFO - extract - Halaman 25 selesai: 20 produk
+2026-04-15 23:13:42,952 - INFO - extract - === Batch halaman 21-30 selesai. Total produk terkumpul: 600 ===
+
+2026-04-15 23:13:43,453 - INFO - extract - === Memulai batch halaman 31-40 ===
+2026-04-15 23:13:43,454 - INFO - extract - Scraping halaman 31: https://fashion-studio.dicoding.dev/page31
+2026-04-15 23:13:43,454 - INFO - extract - Scraping halaman 32: https://fashion-studio.dicoding.dev/page32
+2026-04-15 23:13:43,455 - INFO - extract - Scraping halaman 33: https://fashion-studio.dicoding.dev/page33
+2026-04-15 23:13:43,456 - INFO - extract - Scraping halaman 34: https://fashion-studio.dicoding.dev/page34
+2026-04-15 23:13:43,458 - INFO - extract - Scraping halaman 35: https://fashion-studio.dicoding.dev/page35
+2026-04-15 23:13:43,460 - INFO - extract - Scraping halaman 36: https://fashion-studio.dicoding.dev/page36
+2026-04-15 23:13:43,460 - INFO - extract - Scraping halaman 37: https://fashion-studio.dicoding.dev/page37
+2026-04-15 23:13:43,462 - INFO - extract - Scraping halaman 38: https://fashion-studio.dicoding.dev/page38
+2026-04-15 23:13:43,463 - INFO - extract - Scraping halaman 39: https://fashion-studio.dicoding.dev/page39
+2026-04-15 23:13:43,464 - INFO - extract - Scraping halaman 40: https://fashion-studio.dicoding.dev/page40
+2026-04-15 23:13:44,881 - INFO - extract - Halaman 37 selesai: 20 produk
+2026-04-15 23:13:44,910 - INFO - extract - Halaman 33 selesai: 20 produk
+2026-04-15 23:13:44,937 - INFO - extract - Halaman 38 selesai: 20 produk
+2026-04-15 23:13:44,962 - INFO - extract - Halaman 34 selesai: 20 produk
+2026-04-15 23:13:45,153 - INFO - extract - Halaman 31 selesai: 20 produk
+2026-04-15 23:13:45,188 - INFO - extract - Halaman 35 selesai: 20 produk
+2026-04-15 23:13:45,223 - INFO - extract - Halaman 39 selesai: 20 produk
+2026-04-15 23:13:45,271 - INFO - extract - Halaman 32 selesai: 20 produk
+2026-04-15 23:13:45,272 - INFO - extract - Halaman 40 selesai: 20 produk
+2026-04-15 23:13:45,267 - INFO - extract - Halaman 36 selesai: 20 produk
+2026-04-15 23:13:45,285 - INFO - extract - === Batch halaman 31-40 selesai. Total produk terkumpul: 800 ===
+
+2026-04-15 23:13:45,786 - INFO - extract - === Memulai batch halaman 41-50 ===
+2026-04-15 23:13:45,787 - INFO - extract - Scraping halaman 41: https://fashion-studio.dicoding.dev/page41
+2026-04-15 23:13:45,788 - INFO - extract - Scraping halaman 42: https://fashion-studio.dicoding.dev/page42
+2026-04-15 23:13:45,789 - INFO - extract - Scraping halaman 43: https://fashion-studio.dicoding.dev/page43
+2026-04-15 23:13:45,790 - INFO - extract - Scraping halaman 44: https://fashion-studio.dicoding.dev/page44
+2026-04-15 23:13:45,792 - INFO - extract - Scraping halaman 45: https://fashion-studio.dicoding.dev/page45
+2026-04-15 23:13:45,792 - INFO - extract - Scraping halaman 46: https://fashion-studio.dicoding.dev/page46
+2026-04-15 23:13:45,794 - INFO - extract - Scraping halaman 47: https://fashion-studio.dicoding.dev/page47
+2026-04-15 23:13:45,796 - INFO - extract - Scraping halaman 48: https://fashion-studio.dicoding.dev/page48
+2026-04-15 23:13:45,797 - INFO - extract - Scraping halaman 49: https://fashion-studio.dicoding.dev/page49
+2026-04-15 23:13:45,798 - INFO - extract - Scraping halaman 50: https://fashion-studio.dicoding.dev/page50
+2026-04-15 23:13:47,578 - INFO - extract - Halaman 44 selesai: 20 produk
+2026-04-15 23:13:47,596 - INFO - extract - Halaman 47 selesai: 20 produk
+2026-04-15 23:13:47,615 - INFO - extract - Halaman 43 selesai: 20 produk
+2026-04-15 23:13:47,643 - INFO - extract - Halaman 48 selesai: 20 produk
+2026-04-15 23:13:47,805 - INFO - extract - Halaman 42 selesai: 20 produk
+2026-04-15 23:13:47,836 - INFO - extract - Halaman 46 selesai: 20 produk
+2026-04-15 23:13:47,858 - INFO - extract - Halaman 41 selesai: 20 produk
+2026-04-15 23:13:47,873 - INFO - extract - Halaman 49 selesai: 20 produk
+2026-04-15 23:13:47,891 - INFO - extract - Halaman 50 selesai: 20 produk
+2026-04-15 23:13:47,922 - INFO - extract - Halaman 45 selesai: 20 produk
+2026-04-15 23:13:47,931 - INFO - extract - === Batch halaman 41-50 selesai. Total produk terkumpul: 1000 ===
+
+2026-04-15 23:13:48,442 - INFO - extract - Ekstraksi data selesai dan disimpan di products.csv
+2026-04-15 23:13:48,442 - INFO - main - Berhasil mengekstrak 1000 catatan mentah.
+2026-04-15 23:13:48,442 - INFO - main - --- Tahap 2: Mentransformasi Data ---
+2026-04-15 23:13:48,443 - INFO - transform - Memulai transformasi data...
+2026-04-15 23:13:48,457 - INFO - transform - Transformasi data selesai. Jumlah baris sebelum transformasi: 1000, sesudah transformasi: 867
+2026-04-15 23:13:48,461 - ERROR - transform - Kesalahan tak terduga saat mengatur tipe data pada DataFrame hasil transformasi: 'DatetimeProperties' object has no attribute 'isoformat'
+2026-04-15 23:13:48,461 - INFO - main - Berhasil mentransformasi data. DataFrame hasil memiliki 867 catatan.
+2026-04-15 23:13:48,461 - INFO - main - Contoh data hasil transformasi:
+2026-04-15 23:13:48,462 - INFO - main -            Judul      Harga  Peringkat  Warna Ukuran  Gender                   timestamp
+1    T-shirt 182  2334880.0        3.8      3      M   Women  2026-04-15T23:13:34.950478
+2     Hoodie 183  3904640.0        3.6      3      L  Unisex  2026-04-15T23:13:34.950478
+3      Pants 184  7759520.0        4.5      3     XL     Men  2026-04-15T23:13:34.950478
+4  Outerwear 185  7822880.0        3.2      3    XXL   Women  2026-04-15T23:13:34.950478
+5     Jacket 186  6940480.0        4.2      3      S  Unisex  2026-04-15T23:13:34.950478
+2026-04-15 23:13:48,474 - INFO - main - 
+Tipe data dari data hasil transformasi:
+<class 'pandas.DataFrame'>
+Index: 867 entries, 1 to 999
+Data columns (total 7 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   Judul      867 non-null    str    
+ 1   Harga      867 non-null    float64
+ 2   Peringkat  867 non-null    float64
+ 3   Warna      867 non-null    int64  
+ 4   Ukuran     867 non-null    str    
+ 5   Gender     867 non-null    str    
+ 6   timestamp  867 non-null    str    
+dtypes: float64(2), int64(1), str(4)
+memory usage: 54.2 KB
+2026-04-15 23:13:48,480 - INFO - main - --- Tahap 3: Memuat Data ---
+2026-04-15 23:13:48,485 - INFO - load - Data berhasil dimuat ke products.csv
+2026-04-15 23:13:48,485 - INFO - main - Data berhasil dimuat.
+2026-04-15 23:13:48,486 - INFO - main - Pipeline ETL selesai.
+
+(venv) PS C:\Projects\submission_pemda> pytest tests/ -v
+==================================================================== test session starts ====================================================================
+platform win32 -- Python 3.14.4, pytest-9.0.3, pluggy-1.6.0 -- C:\Projects\submission_pemda\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Projects\submission_pemda
+collected 21 items                                                                                                                                           
+
+tests/test_extract.py::test_get_valid_product_info PASSED                                                                                              [  4%]
+tests/test_extract.py::test_get_product_info_price_unavailable PASSED                                                                                  [  9%]
+tests/test_extract.py::test_get_product_info_invalid_rating PASSED                                                                                     [ 14%]
+tests/test_extract.py::test_get_product_info_no_rating PASSED                                                                                          [ 19%]
+tests/test_extract.py::test_extract_data_success PASSED                                                                                                [ 23%]
+tests/test_extract.py::test_extract_data_exception_request PASSED                                                                                      [ 28%]
+tests/test_extract.py::test_extract_no_product_grid PASSED                                                                                             [ 33%]
+tests/test_extract.py::test_extract_data_iterate_pages PASSED                                                                                          [ 38%]
+tests/test_load.py::test_load_data_successfully PASSED                                                                                                 [ 42%]
+tests/test_load.py::test_load_data_empty_dataframe PASSED                                                                                              [ 47%]
+tests/test_load.py::test_load_data_io_error PASSED                                                                                                     [ 52%]
+tests/test_load.py::test_load_data_unexpected_error PASSED                                                                                             [ 57%]
+tests/test_transform.py::test_valid_price_transform PASSED                                                                                             [ 61%]
+tests/test_transform.py::test_price_unavailable_transform PASSED                                                                                       [ 66%]
+tests/test_transform.py::test_valid_rating_transform PASSED                                                                                            [ 71%]
+tests/test_transform.py::test_invalid_rating_transform PASSED                                                                                          [ 76%]
+tests/test_transform.py::test_valid_colors_transform PASSED                                                                                            [ 80%]
+tests/test_transform.py::test_valid_text_column_transform PASSED                                                                                       [ 85%]
+tests/test_transform.py::test_full_transform_pipeline PASSED                                                                                           [ 90%]
+tests/test_transform.py::test_empty_dataframe_transform PASSED                                                                                         [ 95%]
+tests/test_transform.py::test_missing_columns PASSED                                                                                                   [100%]
+
+==================================================================== 21 passed in 3.85s =====================================================================2026-04-16 18:02:41,005 - INFO - root - Logging test: If you see this, logging works!
+2026-04-16 18:02:41,006 - INFO - __main__ - Memulai Pipeline ETL...
+2026-04-16 18:02:41,006 - INFO - __main__ - --- Tahap 1: Mengekstrak Data ---
+2026-04-16 18:02:41,006 - INFO - utils.extract - === Memulai batch halaman 1-10 ===
+2026-04-16 18:02:41,007 - INFO - utils.extract - Scraping halaman 1: https://fashion-studio.dicoding.dev
+2026-04-16 18:02:41,008 - INFO - utils.extract - Scraping halaman 2: https://fashion-studio.dicoding.dev/page2
+2026-04-16 18:02:41,009 - INFO - utils.extract - Scraping halaman 3: https://fashion-studio.dicoding.dev/page3
+2026-04-16 18:02:41,010 - INFO - utils.extract - Scraping halaman 4: https://fashion-studio.dicoding.dev/page4
+2026-04-16 18:02:41,010 - INFO - utils.extract - Scraping halaman 5: https://fashion-studio.dicoding.dev/page5
+2026-04-16 18:02:41,011 - INFO - utils.extract - Scraping halaman 6: https://fashion-studio.dicoding.dev/page6
+2026-04-16 18:02:41,012 - INFO - utils.extract - Scraping halaman 7: https://fashion-studio.dicoding.dev/page7
+2026-04-16 18:02:41,013 - INFO - utils.extract - Scraping halaman 8: https://fashion-studio.dicoding.dev/page8
+2026-04-16 18:02:41,014 - INFO - utils.extract - Scraping halaman 9: https://fashion-studio.dicoding.dev/page9
+2026-04-16 18:02:41,016 - INFO - utils.extract - Scraping halaman 10: https://fashion-studio.dicoding.dev/page10
+2026-04-16 18:02:43,484 - INFO - utils.extract - Halaman 3 selesai: 20 produk
+2026-04-16 18:02:43,501 - INFO - utils.extract - Halaman 6 selesai: 20 produk
+2026-04-16 18:02:43,521 - INFO - utils.extract - Halaman 10 selesai: 20 produk
+2026-04-16 18:02:43,556 - INFO - utils.extract - Halaman 8 selesai: 20 produk
+2026-04-16 18:02:43,584 - INFO - utils.extract - Halaman 9 selesai: 20 produk
+2026-04-16 18:02:43,600 - INFO - utils.extract - Halaman 5 selesai: 20 produk
+2026-04-16 18:02:43,613 - INFO - utils.extract - Halaman 4 selesai: 20 produk
+2026-04-16 18:02:43,628 - INFO - utils.extract - Halaman 2 selesai: 20 produk
+2026-04-16 18:02:43,647 - INFO - utils.extract - Halaman 7 selesai: 20 produk
+2026-04-16 18:02:43,666 - INFO - utils.extract - Halaman 1 selesai: 20 produk
+2026-04-16 18:02:43,671 - INFO - utils.extract - === Batch halaman 1-10 selesai. Total produk terkumpul: 200 ===
+
+2026-04-16 18:02:44,172 - INFO - utils.extract - === Memulai batch halaman 11-20 ===
+2026-04-16 18:02:44,173 - INFO - utils.extract - Scraping halaman 11: https://fashion-studio.dicoding.dev/page11
+2026-04-16 18:02:44,174 - INFO - utils.extract - Scraping halaman 12: https://fashion-studio.dicoding.dev/page12
+2026-04-16 18:02:44,176 - INFO - utils.extract - Scraping halaman 13: https://fashion-studio.dicoding.dev/page13
+2026-04-16 18:02:44,178 - INFO - utils.extract - Scraping halaman 14: https://fashion-studio.dicoding.dev/page14
+2026-04-16 18:02:44,180 - INFO - utils.extract - Scraping halaman 15: https://fashion-studio.dicoding.dev/page15
+2026-04-16 18:02:44,183 - INFO - utils.extract - Scraping halaman 16: https://fashion-studio.dicoding.dev/page16
+2026-04-16 18:02:44,185 - INFO - utils.extract - Scraping halaman 17: https://fashion-studio.dicoding.dev/page17
+2026-04-16 18:02:44,189 - INFO - utils.extract - Scraping halaman 18: https://fashion-studio.dicoding.dev/page18
+2026-04-16 18:02:44,190 - INFO - utils.extract - Scraping halaman 19: https://fashion-studio.dicoding.dev/page19
+2026-04-16 18:02:44,192 - INFO - utils.extract - Scraping halaman 20: https://fashion-studio.dicoding.dev/page20
+2026-04-16 18:02:45,586 - INFO - utils.extract - Halaman 14 selesai: 20 produk
+2026-04-16 18:02:45,700 - INFO - utils.extract - Halaman 18 selesai: 20 produk
+2026-04-16 18:02:45,716 - INFO - utils.extract - Halaman 13 selesai: 20 produk
+2026-04-16 18:02:45,750 - INFO - utils.extract - Halaman 17 selesai: 20 produk
+2026-04-16 18:02:45,909 - INFO - utils.extract - Halaman 19 selesai: 20 produk
+2026-04-16 18:02:45,929 - INFO - utils.extract - Halaman 20 selesai: 20 produk
+2026-04-16 18:02:45,946 - INFO - utils.extract - Halaman 11 selesai: 20 produk
+2026-04-16 18:02:45,973 - INFO - utils.extract - Halaman 16 selesai: 20 produk
+2026-04-16 18:02:45,991 - INFO - utils.extract - Halaman 12 selesai: 20 produk
+2026-04-16 18:02:46,017 - INFO - utils.extract - Halaman 15 selesai: 20 produk
+2026-04-16 18:02:46,022 - INFO - utils.extract - === Batch halaman 11-20 selesai. Total produk terkumpul: 400 ===
+
+2026-04-16 18:02:46,523 - INFO - utils.extract - === Memulai batch halaman 21-30 ===
+2026-04-16 18:02:46,524 - INFO - utils.extract - Scraping halaman 21: https://fashion-studio.dicoding.dev/page21
+2026-04-16 18:02:46,525 - INFO - utils.extract - Scraping halaman 22: https://fashion-studio.dicoding.dev/page22
+2026-04-16 18:02:46,526 - INFO - utils.extract - Scraping halaman 23: https://fashion-studio.dicoding.dev/page23
+2026-04-16 18:02:46,528 - INFO - utils.extract - Scraping halaman 25: https://fashion-studio.dicoding.dev/page25
+2026-04-16 18:02:46,527 - INFO - utils.extract - Scraping halaman 24: https://fashion-studio.dicoding.dev/page24
+2026-04-16 18:02:46,530 - INFO - utils.extract - Scraping halaman 26: https://fashion-studio.dicoding.dev/page26
+2026-04-16 18:02:46,533 - INFO - utils.extract - Scraping halaman 27: https://fashion-studio.dicoding.dev/page27
+2026-04-16 18:02:46,535 - INFO - utils.extract - Scraping halaman 28: https://fashion-studio.dicoding.dev/page28
+2026-04-16 18:02:46,537 - INFO - utils.extract - Scraping halaman 29: https://fashion-studio.dicoding.dev/page29
+2026-04-16 18:02:46,540 - INFO - utils.extract - Scraping halaman 30: https://fashion-studio.dicoding.dev/page30
+2026-04-16 18:02:47,972 - INFO - utils.extract - Halaman 28 selesai: 20 produk
+2026-04-16 18:02:48,009 - INFO - utils.extract - Halaman 24 selesai: 20 produk
+2026-04-16 18:02:48,033 - INFO - utils.extract - Halaman 23 selesai: 20 produk
+2026-04-16 18:02:48,085 - INFO - utils.extract - Halaman 27 selesai: 20 produk
+2026-04-16 18:02:48,293 - INFO - utils.extract - Halaman 26 selesai: 20 produk
+2026-04-16 18:02:48,313 - INFO - utils.extract - Halaman 21 selesai: 20 produk
+2026-04-16 18:02:48,331 - INFO - utils.extract - Halaman 22 selesai: 20 produk
+2026-04-16 18:02:48,346 - INFO - utils.extract - Halaman 25 selesai: 20 produk
+2026-04-16 18:02:48,363 - INFO - utils.extract - Halaman 30 selesai: 20 produk
+2026-04-16 18:02:48,386 - INFO - utils.extract - Halaman 29 selesai: 20 produk
+2026-04-16 18:02:48,394 - INFO - utils.extract - === Batch halaman 21-30 selesai. Total produk terkumpul: 600 ===
+
+2026-04-16 18:02:48,895 - INFO - utils.extract - === Memulai batch halaman 31-40 ===
+2026-04-16 18:02:48,896 - INFO - utils.extract - Scraping halaman 31: https://fashion-studio.dicoding.dev/page31
+2026-04-16 18:02:48,896 - INFO - utils.extract - Scraping halaman 32: https://fashion-studio.dicoding.dev/page32
+2026-04-16 18:02:48,897 - INFO - utils.extract - Scraping halaman 33: https://fashion-studio.dicoding.dev/page33
+2026-04-16 18:02:48,898 - INFO - utils.extract - Scraping halaman 34: https://fashion-studio.dicoding.dev/page34
+2026-04-16 18:02:48,898 - INFO - utils.extract - Scraping halaman 35: https://fashion-studio.dicoding.dev/page35
+2026-04-16 18:02:48,899 - INFO - utils.extract - Scraping halaman 36: https://fashion-studio.dicoding.dev/page36
+2026-04-16 18:02:48,901 - INFO - utils.extract - Scraping halaman 37: https://fashion-studio.dicoding.dev/page37
+2026-04-16 18:02:48,905 - INFO - utils.extract - Scraping halaman 38: https://fashion-studio.dicoding.dev/page38
+2026-04-16 18:02:48,907 - INFO - utils.extract - Scraping halaman 39: https://fashion-studio.dicoding.dev/page39
+2026-04-16 18:02:48,909 - INFO - utils.extract - Scraping halaman 40: https://fashion-studio.dicoding.dev/page40
+2026-04-16 18:02:50,810 - INFO - utils.extract - Halaman 33 selesai: 20 produk
+2026-04-16 18:02:50,830 - INFO - utils.extract - Halaman 37 selesai: 20 produk
+2026-04-16 18:02:50,856 - INFO - utils.extract - Halaman 34 selesai: 20 produk
+2026-04-16 18:02:50,871 - INFO - utils.extract - Halaman 38 selesai: 20 produk
+2026-04-16 18:02:51,055 - INFO - utils.extract - Halaman 39 selesai: 20 produk
+2026-04-16 18:02:51,084 - INFO - utils.extract - Halaman 36 selesai: 20 produk
+2026-04-16 18:02:51,103 - INFO - utils.extract - Halaman 31 selesai: 20 produk
+2026-04-16 18:02:51,152 - INFO - utils.extract - Halaman 35 selesai: 20 produk
+2026-04-16 18:02:51,155 - INFO - utils.extract - Halaman 40 selesai: 20 produk
+2026-04-16 18:02:51,156 - INFO - utils.extract - Halaman 32 selesai: 20 produk
+2026-04-16 18:02:51,168 - INFO - utils.extract - === Batch halaman 31-40 selesai. Total produk terkumpul: 800 ===
+
+2026-04-16 18:02:51,668 - INFO - utils.extract - === Memulai batch halaman 41-50 ===
+2026-04-16 18:02:51,669 - INFO - utils.extract - Scraping halaman 41: https://fashion-studio.dicoding.dev/page41
+2026-04-16 18:02:51,670 - INFO - utils.extract - Scraping halaman 42: https://fashion-studio.dicoding.dev/page42
+2026-04-16 18:02:51,671 - INFO - utils.extract - Scraping halaman 43: https://fashion-studio.dicoding.dev/page43
+2026-04-16 18:02:51,672 - INFO - utils.extract - Scraping halaman 44: https://fashion-studio.dicoding.dev/page44
+2026-04-16 18:02:51,673 - INFO - utils.extract - Scraping halaman 45: https://fashion-studio.dicoding.dev/page45
+2026-04-16 18:02:51,675 - INFO - utils.extract - Scraping halaman 47: https://fashion-studio.dicoding.dev/page47
+2026-04-16 18:02:51,677 - INFO - utils.extract - Scraping halaman 48: https://fashion-studio.dicoding.dev/page48
+2026-04-16 18:02:51,674 - INFO - utils.extract - Scraping halaman 46: https://fashion-studio.dicoding.dev/page46
+2026-04-16 18:02:51,679 - INFO - utils.extract - Scraping halaman 49: https://fashion-studio.dicoding.dev/page49
+2026-04-16 18:02:51,681 - INFO - utils.extract - Scraping halaman 50: https://fashion-studio.dicoding.dev/page50
+2026-04-16 18:02:53,220 - INFO - utils.extract - Halaman 44 selesai: 20 produk
+2026-04-16 18:02:53,277 - INFO - utils.extract - Halaman 48 selesai: 20 produk
+2026-04-16 18:02:53,281 - INFO - utils.extract - Halaman 47 selesai: 20 produk
+2026-04-16 18:02:53,319 - INFO - utils.extract - Halaman 43 selesai: 20 produk
+2026-04-16 18:02:53,389 - INFO - utils.extract - Halaman 42 selesai: 20 produk
+2026-04-16 18:02:53,457 - INFO - utils.extract - Halaman 45 selesai: 20 produk
+2026-04-16 18:02:53,469 - INFO - utils.extract - Halaman 41 selesai: 20 produk
+2026-04-16 18:02:53,489 - INFO - utils.extract - Halaman 50 selesai: 20 produk
+2026-04-16 18:02:53,502 - INFO - utils.extract - Halaman 46 selesai: 20 produk
+2026-04-16 18:02:53,543 - INFO - utils.extract - Halaman 49 selesai: 20 produk
+2026-04-16 18:02:53,551 - INFO - utils.extract - === Batch halaman 41-50 selesai. Total produk terkumpul: 1000 ===
+
+2026-04-16 18:02:54,064 - INFO - utils.extract - Ekstraksi data selesai dan disimpan di products.csv
+2026-04-16 18:02:54,064 - INFO - __main__ - Berhasil mengekstrak 1000 catatan mentah.
+2026-04-16 18:02:54,065 - INFO - __main__ - --- Tahap 2: Mentransformasi Data ---
+2026-04-16 18:02:54,065 - INFO - utils.transform - Memulai transformasi data...
+2026-04-16 18:02:54,077 - INFO - utils.transform - Transformasi data selesai. Jumlah baris sebelum transformasi: 1000, sesudah transformasi: 867
+2026-04-16 18:02:54,082 - INFO - __main__ - Berhasil mentransformasi data. DataFrame hasil memiliki 867 catatan.
+2026-04-16 18:02:54,082 - INFO - __main__ - Contoh data hasil transformasi:
+2026-04-16 18:02:54,083 - INFO - __main__ -           Judul      Harga  Peringkat  Warna Ukuran  Gender                   timestamp
+1     Jacket 42  6744160.0        3.7      3      M  Unisex  2026-04-16 18:02:41.006708
+2   Crewneck 43  2909600.0        4.5      3      L     Men  2026-04-16 18:02:41.006708
+3    T-shirt 44  3312320.0        3.0      3     XL   Women  2026-04-16 18:02:41.006708
+4     Hoodie 45  8693120.0        4.5      3    XXL  Unisex  2026-04-16 18:02:41.006708
+6  Outerwear 47  6364640.0        3.2      3      M   Women  2026-04-16 18:02:41.006708
+2026-04-16 18:02:54,113 - INFO - __main__ - 
+Tipe data dari data hasil transformasi:
+2026-04-16 18:02:54,118 - INFO - __main__ - 
+<class 'pandas.DataFrame'>
+Index: 867 entries, 1 to 999
+Data columns (total 7 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   Judul      867 non-null    str    
+ 1   Harga      867 non-null    float64
+ 2   Peringkat  867 non-null    float64
+ 3   Warna      867 non-null    int64  
+ 4   Ukuran     867 non-null    str    
+ 5   Gender     867 non-null    str    
+ 6   timestamp  867 non-null    str    
+dtypes: float64(2), int64(1), str(4)
+memory usage: 54.2 KB
+
+2026-04-16 18:02:54,118 - INFO - __main__ - --- Tahap 3: Memuat Data ---
+2026-04-16 18:02:54,124 - INFO - utils.load - Data berhasil dimuat ke products.csv
+2026-04-16 18:02:54,125 - INFO - __main__ - Data berhasil dimuat.
+2026-04-16 18:02:54,125 - INFO - __main__ - Pipeline ETL selesai.
