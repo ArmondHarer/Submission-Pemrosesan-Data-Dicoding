@@ -76,13 +76,11 @@ Data berhasil dimuat ke produk.csv
 submission-pemda/
 │
 ├── utils/                          # Core ETL modules
-│   ├── __init__.py
 │   ├── extract.py                 # Web scraping (ambil_konten, ambil_detail_produk, ekstrak_data)
 │   ├── transform.py               # Data cleaning (transform_price, transform_rating, etc)
 │   └── load.py                    # CSV saving (load_data)
 │
 ├── tests/                          # Unit tests
-│   ├── __init__.py
 │   ├── test_extract.py            # 8 tests for extraction
 │   ├── test_transform.py          # 9 tests for transformation
 │   └── test_load.py               # 4 tests for loading
