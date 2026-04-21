@@ -287,8 +287,8 @@ See `requirements.txt` for complete list.
 
 ## 📧 Contact & Support
 
-- 📌 Found an issue? Create an [Issue](https://github.com/YOUR_USERNAME/submission-pemda/issues)
-- 💡 Have a suggestion? Start a [Discussion](https://github.com/YOUR_USERNAME/submission-pemda/discussions)
+- 📌 Found an issue? Create an [Issue](https://github.com/ArmondHarer/submission-pemrosesan-data-dicoding/issues)
+- 💡 Have a suggestion? Start a [Discussion](https://github.com/ArmondHarer/submission-pemrosesan-data-dicoding/discussions)
 - ⭐ Found it useful? Give it a star!
 
 ---
